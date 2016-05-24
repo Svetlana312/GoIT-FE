@@ -1,0 +1,12 @@
+body {
+background: #ccc; 
+width: 100%
+}
+.imgWrap img {
+	width: 100%
+}
+.divclass="contanier"{
+	width: 400px;
+	background: #fff;
+	border: 1px;
+}
