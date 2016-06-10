@@ -1,13 +1,17 @@
 body {
-background: #ccc; 
-width: 100%
-}
-.imgWrap img {
-	width: 100%
-}
-.contanier{
-    padding: 400px;
-	width: 400px;
 	background: #fff;
-	border: 1px;
+	margin: 0 auto;
+}
+.div {
+	border-top: 1px solid black;
+}
+html {
+	background: #ccc;
+	margin: 0px 400px 0px 400px;
+}
+.main {
+	text-align: center;
+}
+.div {
+	padding: 0px 0px 0px 20px;
 }
