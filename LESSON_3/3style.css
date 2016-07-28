@@ -1,0 +1,82 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.container {
+	background: url(D://GoIT/LESSON_3/background.png);
+}
+.main {
+	background: white;
+	margin: 0px 200px 0px 200px;
+}
+.logo img {
+	float: left;
+	margin: 5px;
+}
+.tel {
+	padding: 10px 10px 10px 740px;
+}
+.info li{
+	list-style: none;
+}
+.flags li{
+	float: right;
+	list-style: none;
+	margin: 7px;
+}
+.photo img {
+	width: 949px;
+}
+.menu {
+	width: 949px;
+	background: linear-gradient(to top, #313131, #363636);
+}
+.menu ul li {
+	/*width: 100%;*/
+	position: relative;
+	background: linear-gradient(to top, #313131, #363636);
+}
+.menu > li {
+	background: linear-gradient(to top, #313131, #363636);
+	position: relative;
+	float: left;
+	height: 20px;
+	list-style: none;
+	padding: 5px 31px;
+}
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+.submenu li {
+	display:none;
+	position: absolute;
+	padding: 5px;
+}
+.menu li:hover .submenu li {
+	display: block;
+}	
+.information {
+	height: 504px;
+	padding: 15px;
+	background: #efefef;
+	display: inline-block;
+}
+.information h4 {
+	text-align: center;
+}
+.news {
+	padding: 15px;
+	background: #efefef;
+	float: right;
+	overflow: hidden;
+}
+.news h4 {
+	text-align: center;
+}
+.footer {
+	padding: 10px;
+	background: #0c739f;
+	clear: both;
+	text-align: center;
+}
