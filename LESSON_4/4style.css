@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+.container {
+	background: url(../LESSON_4/background.jpg) no-repeat;
+	background-size:100%;
+	background-position: 50% 50%;
+	height: 100%;
+}
+.sidebar {
+	position: relative;
+	overflow: hidden;
+	background: #085292;
+}
+.menu li {
+	list-style: none;
+	float:right;
+	padding: 7px;
+}
+.menu a {
+	text-decoration: none;
+	color: #4ea1db;
+}
+.menu li:hover {
+	background: #4eabda;
+	color: white;
+}
+.menu a:hover {
+	color: white;
+}
+.logo p {
+	float: right;
+	color: white;
+}
+.link p {
+	padding: 7px;
+	color: white;
+	float: right;
+}
+.link a {
+	color: white;
+}
+.link p:hover {
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#4daada), to(#2e7ac4));
+}
+.box {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -175px;
+	margin-top: -232px;
+	width: 350px;
+	height: 464px;
+	background: rgba(04,04,04,0.7);
+	text-align: center;
+}
+.name h2 {
+	margin: 5px;
+	color: white;
+	font-family: Tahoma;
+	border-bottom: 1px solid;
+}
+.form {
+	padding: 10px 3px 10px 3px;
+}
+.facebook button {
+	height: 25px;
+	width: 180px;
+	margin: 20px;
+	border: none;
+	border-radius: 3px;
+}
+.facebook img {
+	height: 30px;
+	width: 200px;
+
+}
+.form button {
+	color: white;
+	border: none;
+	padding: 7px;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#4ca9d9), to(#2e7ac4));
+}
+.form input {
+	border: none;
+	background: black;
+	border-radius: 1px;
+	margin: 5px;
+	padding: 7px 30px 7px 30px;
+}
+.form input:hover {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+	background: #1b5288;
+}
+.form button {
+	padding: 5px;
+	margin: 10px;
+}
+.form p {
+	font-size: 10px;
+	margin: 20px;
+	color: white;
+}
+.form span {
+	color: white;
+}
+@font-face {
+
+    font-family: Helvetica; /* имя шрифта для CSS правил */
+	src: local("Helvetica Neue"), /* проверяем наличие шрифта в ОС пользователя */
+	url(path-to/Helvetica Neue.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+
+  }
